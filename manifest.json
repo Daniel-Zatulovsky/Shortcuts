@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Dev Shortcut",
+  "version": "1.0.0",
+  "description": "Press a key to toggle between github.com and github.dev",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*", "https://github.dev/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }}
+
