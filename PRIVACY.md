@@ -40,4 +40,3 @@ Any changes to this policy will be reflected in the extension update notes.
 ## Contact
 
 For questions about this privacy policy, please open an issue on the project's GitHub repository.
-

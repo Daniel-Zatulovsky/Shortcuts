@@ -6,7 +6,7 @@ A minimal Chrome extension that toggles between github.com and github.dev (VS Co
 
 - Press `.` (or your custom key) to toggle between github.com ↔ github.dev
 - Customizable shortcut key via extension options
-- Only activates on github.com pages
+- Only activates on github.com and github.dev pages
 - Ignores keypresses when typing in input fields
 
 ## Installation
@@ -16,7 +16,7 @@ A minimal Chrome extension that toggles between github.com and github.dev (VS Co
 1. Open Chrome and go to `chrome://extensions/`
 2. Enable **Developer mode** (toggle in top right)
 3. Click **Load unpacked**
-4. Select the `github-dev-shortcut` folder
+4. Select the `Shortcuts` folder
 5. The extension is now active!
 
 ### Customize the shortcut
@@ -34,6 +34,5 @@ A minimal Chrome extension that toggles between github.com and github.dev (VS Co
 ## Files
 
 - `manifest.json` - Extension configuration
-- `content.js` - Keyboard listener (runs on github.com)
+- `content.js` - Keyboard listener (runs on github.com and github.dev)
 - `options.html/js` - Settings popup
-

@@ -16,4 +16,3 @@ shortcutInput.addEventListener('input', () => {
     });
   }
 });
-
