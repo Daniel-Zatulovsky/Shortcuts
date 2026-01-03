@@ -1,4 +1,4 @@
-# GitHub Dev Shortcut
+# GitHub Shortcut
 
 A minimal Chrome extension that toggles between github.com and github.dev (VS Code in browser) with a single keypress.
 
